@@ -6,6 +6,7 @@ import phoneIcon from '../assests/phone.png';
 import clockIcon from '../assests/timing.png';
 import { devices, devicesMin } from '../devices';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const FooterContainer = styled.footer`
   background-color: #f2f2f2;
@@ -226,15 +227,15 @@ const RightAlignedCopyRightText = styled.p`
 
 const Footer = () => {
 
-  const handleClick = (e, id) => {
-    e.preventDefault();
+  // const handleClick = (e, id) => {
+  //   e.preventDefault();
 
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = element.offsetTop - 70;
-      window.scrollTo({ top: offset, behavior: 'smooth' });
-    }
-  };
+  //   const element = document.getElementById(id);
+  //   if (element) {
+  //     const offset = element.offsetTop - 70;
+  //     window.scrollTo({ top: offset, behavior: 'smooth' });
+  //   }
+  // };
 
   return (
     <>
@@ -278,9 +279,15 @@ const Footer = () => {
                 <Link to="/products" style={{ textDecoration: 'none' }}>
                   <FooterParagraph>Products</FooterParagraph>
                 </Link>
-                <FooterParagraph onClick={(e) => handleClick(e, "testimonials")}>Testimonials</FooterParagraph>
-                <FooterParagraph onClick={(e) => handleClick(e, "quote")}>Get Quote</FooterParagraph>
-                <FooterParagraph onClick={(e) => handleClick(e, "Location")}>Location</FooterParagraph>
+                <HashLink smooth to="/#testimonials" style={{ textDecoration: 'none', color: "white" }}>
+                  <FooterParagraph>Testimonials</FooterParagraph>
+                </HashLink>
+                <HashLink smooth to="/#quote" style={{ textDecoration: 'none', color: "white" }}>
+                  <FooterParagraph>Get Quote</FooterParagraph>
+                </HashLink>
+                <HashLink smooth to="/#Location" style={{ textDecoration: 'none', color: "white" }}>
+                  <FooterParagraph>Location</FooterParagraph>
+                </HashLink>
               </div>
             </FooterRow>
             <FooterRow>

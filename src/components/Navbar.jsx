@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { devices, devicesMin } from '../devices';
 import { AiOutlineMenuFold } from 'react-icons/ai'
 import {AiOutlineClose} from 'react-icons/ai';
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
   width: 100%;
@@ -25,6 +26,7 @@ const Container = styled.div`
 const MyIcon = styled.img.attrs(props => ({
   src: props.Img
 }))`
+  cursor: pointer;
   @media ${devices.tablet} {
     display: none;
   }
@@ -33,6 +35,7 @@ const MyIcon = styled.img.attrs(props => ({
   const MyIconTablet = styled.img.attrs(props => ({
     src: props.Img
   }))`
+  cursor: pointer;
     width: 30%;
     padding-left: 10px;
     @media ${devicesMin.tablet} {
@@ -154,25 +157,26 @@ function Navbar(props) {
 
   const phoneNumber = '987656543210';
 
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const navigate = useNavigate();
+  const handleLogoClick = () => {
+    navigate("/")
   };
 
-  const handleClick = (e, id) => {
-    e.preventDefault();
+  // const handleClick = (e, id) => {
+  //   e.preventDefault();
     
-    const element = document.getElementById(id);
-    if (element) {
-      const offset = element.offsetTop - 70;
-      window.scrollTo({ top: offset, behavior: 'smooth' });
-    }
-  };
+  //   const element = document.getElementById(id);
+  //   if (element) {
+  //     const offset = element.offsetTop - 70;
+  //     window.scrollTo({ top: offset, behavior: 'smooth' });
+  //   }
+  // };
 
 
   return (
     <Container navbarcolor={navbarcolor}> 
-      <MyIcon Img={vector} navbarcolor={navbarcolor}/>
-      <MyIconTablet Img ={logo} navbarcolor={navbarcolor}/>
+      <MyIcon Img={vector} navbarcolor={navbarcolor} onClick={handleLogoClick}/>
+      <MyIconTablet Img ={logo} navbarcolor={navbarcolor} onClick={handleLogoClick}/>
       <div></div>
       <Menu style={{ color: navbarcolor ? 'black' : "white" }}>
         <Link to="/" style={{ textDecoration: 'none'}}>
@@ -181,10 +185,18 @@ function Navbar(props) {
         <Link to="/products" style={{ textDecoration: 'none', color: navbarcolor ? 'black' : "white" }}>
           <MenuItem navbarcolor={navbarcolor}>Products</MenuItem>
         </Link>
-        <MenuItem navbarcolor={navbarcolor} onClick={(e) => handleClick(e,"testimonials")}>Testimonials</MenuItem>
-        <MenuItem navbarcolor={navbarcolor} onClick={(e) => handleClick(e,"Location")}>Location</MenuItem>
-        <Button>Call Now</Button>
-        <Button1 navbarcolor={navbarcolor} onClick={(e) => handleClick(e,"quote")}>Get Quote</Button1>
+        <HashLink smooth to="/#testimonials" style={{ textDecoration: 'none', color: "white" }}>
+          <MenuItem navbarcolor={navbarcolor}>Testimonials</MenuItem>
+        </HashLink>
+        <HashLink smooth to="/#Location" style={{ textDecoration: 'none', color: "white" }}>
+          <MenuItem navbarcolor={navbarcolor}>Location</MenuItem>
+        </HashLink>
+        <a href="tel:9008536537" style={{textDecoration:'none'}}>
+          <Button>Call Now</Button>
+        </a>
+        <HashLink smooth to="/#quote" style={{ textDecoration: 'none', color: "white" }}>
+          <Button1 navbarcolor={navbarcolor}>Get Quote</Button1>
+        </HashLink>
       </Menu>
       <Icon navbarcolor={navbarcolor} onClick={()=> setOpen(true)} >
         <AiOutlineMenuFold />
@@ -207,7 +219,7 @@ function Navbar(props) {
           <MenuItem>Location</MenuItem>
         </HashLink>
         <a href="tel:9008536537" style={{textDecoration:'none'}}>
-          <Button onClick={handleCall}>Call Now</Button>
+          <Button>Call Now</Button>
         </a>
         <HashLink smooth to="/#quote">
           <Button1 navbarcolor={navbarcolor} >Get Quote</Button1>
