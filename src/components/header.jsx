@@ -65,8 +65,8 @@ function Header() {
     <Container backgroundImages={backgroundImages[currentImageIndex]}>
       <Navbar />
       <Content>
-        <Title>Elevate Your Drive</Title>
-        <Paragraph>Discover premium car accessories to enhance your vehicle's performance, style, and comfort.</Paragraph>
+        <Title>Rev Up Your Drive!</Title>
+        <Paragraph>Edge car accessories are innovative and stylish add-ons designed to enhance the appearance and functionality of your vehicle. From sleek spoilers and stylish alloy wheels to advanced multimedia systems and custom lighting options, these accessories provide a progressive appeal while improving your driving experience.</Paragraph>
       </Content>
     </Container>
   );

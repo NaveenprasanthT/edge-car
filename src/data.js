@@ -42,21 +42,21 @@ export const EdgeData = [
         img : image1,
         product: 'Light',
         title:'LED HeadLights',
-        content:`Upgrade your car's illumination with our high-performance headlights. These headlights feature advanced technology, providing bright and clear lighting for optimal visibility in various driving conditions.`
+        content:`Upgrade your car's illumination with our high-performance headlights  that incorporate advanced technology, provides  superior brightness and clarity, ensuring optimal visibility in diverse driving conditions.`
     },
     {
         id:2,
         img : image3,
-        product : 'Dash Camera',
+        product : 'Dash Cam',
         title:'Dash Cam',
-        content:`Capture every moment on the road with our reliable and feature-packed dash camera. This compact device records high-quality video footage of your driving adventures, providing an extra layer of security and peace of mind. `
+        content:`Capture every moment on the road with our reliable and feature-packed dash camera. This compact gadget captures high-quality video recordings of your driving escapades, offering an added level of security and reassurance.`
     },
     {
         id:3,
         img : image4,
         title:'Speakers',
         product: 'Audio',
-        content:`Elevate your in-car audio experience with our premium audio products. Designed to deliver exceptional sound quality, our car audio systems and speakers provide immersive and powerful audio reproduction.`
+        content:`Enhance your in-car audio experience with our premium audio products. Designed to deliver exceptional sound quality, our car audio systems and speakers provide immersive and powerful audio reproduction.`
     },
 ];
 
@@ -269,7 +269,7 @@ export const brands = [
         name: 'Light',
         img : image9,
         title: 'Envision',
-        desc:`Illuminate the road ahead with our high-quality car headlights. Designed for superior visibility and safety, our headlights provide exceptional brightness and clarity, ensuring clear visibility in various driving conditions. With advanced technology and precision engineering, these headlights deliver optimal light distribution, minimizing glare for oncoming drivers. Crafted with durable materials, our headlights are built to withstand harsh weather conditions and maintain long-lasting performance. Upgrade your vehicle's lighting system with our reliable and high-performance headlights and enjoy a safer and more enjoyable driving experience.`,
+        desc:`Enhance your driving experience with our premium car headlights that illuminate the road ahead. Engineered to prioritize visibility and safety, our headlights offer exceptional brightness and clarity in diverse driving conditions. Utilizing advanced technology and precise engineering, these headlights provide optimal light distribution, reducing glare for oncoming drivers. Crafted from durable materials, they withstand harsh weather and maintain long-lasting performance. Upgrade your vehicle's lighting system with our reliable and high-performance headlights for a safer and more enjoyable journey on the road.`,
     },
     //motors
     {

@@ -224,7 +224,7 @@ function Brands() {
                 Our Products
             </Header>
             <Content>
-              Discover our premium selection of car accessories designed to elevate your vehicle's performance, style, and functionality. From sleek exterior upgrades to cutting-edge electronics and interior enhancements, our products are meticulously curated to meet the highest standards of quality. Explore our collection and find the perfect additions to transform your car into a reflection of your personal style.            </Content>
+            Discover our premium selection of car accessories at Edge Car Accessories. From stylish exterior enhancements to innovative interior upgrades, our products are designed to elevate your vehicle's aesthetics and functionality. Explore our collection and enhance your driving experience.            </Content>
             <DropdownContainer>
               <SubHeading>
                 Brands

@@ -85,13 +85,14 @@ const AboutUs = () => {
           <Section>
             <SectionHeading>Who we are</SectionHeading>
             <SectionParagraph>
-              Edge Car Accessories is a leading online retailer of car accessories, dedicated to providing car enthusiasts with top-notch products and exceptional customer service. With our extensive industry knowledge and commitment to quality, we strive to meet and exceed the expectations of our customers. We source our products from reputable manufacturers to ensure durability, performance, and style.
+              At Edge Car Accessories, we are passionate about cars and committed to provide the best products and exceptional service. With our expertise and dedication,we are driven to exceed your expectations. We carefully curate our selection from trusted manufacturers, ensuring durability, performance, and style in every product we offer.
             </SectionParagraph>
           </Section>
           <Section>
             <SectionHeading>Our Mission</SectionHeading>
             <SectionParagraph>
-              Our mission is to provide car enthusiasts with the highest quality car accessories, offering a wide selection of products that enhance performance, style, and functionality. We strive to exceed customer expectations by delivering exceptional value, outstanding customer service, and a seamless shopping experience.            </SectionParagraph>
+            Our mission is to provide car enthusiasts with the highest quality car accessories, offering a wide selection of products that enhance performance, style, and functionality. We strive to exceed customer expectations by delivering exceptional value, outstanding service, and a seamless shopping experience.
+            </SectionParagraph>
           </Section>
         </SectionContainer>
         <Section>
@@ -100,8 +101,7 @@ const AboutUs = () => {
             <Section>
               <SectionHeading>Audio System</SectionHeading>
               <SectionParagraph>
-                Experience an immersive audio journey on the road with our state-of-the-art audio systems. From crisp highs to deep lows, our premium audio systems deliver unparalleled sound quality, transforming your car into a concert hall on wheels.
-              </SectionParagraph>
+                Experience an immersive audio journey on the road with our  premium audio systems. From crisp highs to deep lows,  our advanced technology delivers unparalleled sound quality, transforming your car into a concert hall on wheels.              </SectionParagraph>
             </Section>
             <Section>
               <SectionHeading>Seat Covers</SectionHeading>
@@ -113,19 +113,22 @@ const AboutUs = () => {
             <Section>
               <SectionHeading>Sun Film</SectionHeading>
               <SectionParagraph>
-                Stay cool and protected from harmful UV rays with our high-quality sun films. Enjoy enhanced privacy, reduced glare, and a cooler interior for a more comfortable drive.              </SectionParagraph>
+                Stay cool and protected from harmful UV rays with our superior sun films. Enjoy enhanced privacy, reduced glare, and a cooler interior for a more comfortable drive.             
+               </SectionParagraph>
             </Section>
             <Section>
               <SectionHeading>Add-Ons</SectionHeading>
               <SectionParagraph>
-                Take your car to the next level with our range of add-ons. From chrome trims to LED lighting, personalize your vehicle with eye-catching enhancements that make it truly yours.              </SectionParagraph>
+              Transform your car into a standout masterpiece with our range of add-ons. From chrome trims to LED lighting, personalize your vehicle with eye-catching enhancements that make it truly yours.              </SectionParagraph>
             </Section>
           </SectionContainer>
         </Section>
         <Section>
           <SectionHeading>Why Us</SectionHeading>
           <SectionParagraph>
-            Our commitment to exceptional quality, extensive product selection, and outstanding customer service ensures a seamless and satisfying experience. Experience the difference with our knowledgeable team, top-notch products, and dedication to your satisfaction.          </SectionParagraph>
+            We ensure extensive expertise, uncompromising quality!
+            Your trusted partner for an enhanced car experience.
+          </SectionParagraph>
           <BulletList>
             <BulletPoint>Competitive Pricing</BulletPoint>
             <BulletPoint>Fast Shipping</BulletPoint>

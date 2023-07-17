@@ -245,8 +245,7 @@ const Footer = () => {
             <FooterLogo>
               <LogoImage src={logo} alt="Logo" />
               <FooterText>
-                At Edge Car Care Accessories, we are dedicated to providing you with the best car accessories to enhance your driving experience.
-                Contact our friendly support team for any inquiries or assistance. We value your privacy and have implemented secure shopping and data protection measures. Stay connected with us on social media for the latest updates and promotions.              </FooterText>
+              At Edge Car Accessories, we invite you to explore a world of possibilities for your vehicle. With our exceptional range of high-quality accessories, we transform your driving experience into something extraordinary. From enhancing performance to adding style, we have everything you need to take your car to the next level. Join us to elevate your ride.              </FooterText>
             </FooterLogo>
             <FooterSocial>
               <FollowUsText>Follow Us on</FollowUsText>

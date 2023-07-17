@@ -41,8 +41,8 @@ const SingleImage = styled.div`
 `
 
 const MyIcon = styled.img.attrs(props => ({
-    src: props.Img,
-  }))`
+  src: props.Img,
+}))`
   width: 100%;
   transition: all 0.4s ease-in-out;
   &:hover {
@@ -51,22 +51,21 @@ const MyIcon = styled.img.attrs(props => ({
   `;
 
 function Showroom() {
-    return ( 
-        <Container>
-            <Header>Showroom</Header>
-            <Text>“Its One Reason To Work With Us.”</Text>
-            <Content>
-              Experience exceptional customer service and find the perfect car accessories to elevate your driving experience. Shop with us and enjoy quality products, expert guidance, and a seamless shopping journey.
-            </Content>
-            <ImageContainer>
-            {ShowroomImg.map((each)=>(
-              <SingleImage>
-                <MyIcon Img={each.img}/>
-              </SingleImage>
-            ))}
-            </ImageContainer>
-        </Container>
-     );
+  return (
+    <Container>
+      <Header>Showroom</Header>
+      <Text>Personalize Your Vehicle with Premium Accessories!</Text>
+      <Content>
+        Step into a world of style, convenience, and functionality as you explore our extensive collection of top-quality car accessories. We offer a wide range of options to suit your tastes and preferences.            </Content>
+      <ImageContainer>
+        {ShowroomImg.map((each) => (
+          <SingleImage>
+            <MyIcon Img={each.img} />
+          </SingleImage>
+        ))}
+      </ImageContainer>
+    </Container>
+  );
 }
 
 export default Showroom;
