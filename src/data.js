@@ -91,25 +91,25 @@ export const TestimonialContent = [
     {
         id:1,
         img : artBoard1,
-        title:'What our client says about us',
+        title:'Hear from our happy clients!',
         content:"I highly recommend Edge Car Care Accessories for their exceptional service and exceptional products. The team went the extra mile in assisting me in finding the ideal car accessories, ensuring a remarkable experience.",
     },
     {
         id:2,
         img : image1,
-        title:'What our client says about us',
+        title:'Hear from our happy clients!',
         content:"I am extremely happy with my purchase from Edge Car Care Accessories. The products exceeded my expectations, and the customer support was outstanding. I will definitely be coming back as a repeat customer!",
     },
     {
         id:3,
         img : image3,
-        title:'What our client says about us',
+        title:'Hear from our happy clients!',
         content:"Impressed by the wide selection and competitive prices at Edge Car Care Accessories. The seat covers I ordered fit perfectly and added a stylish touch to my car's interior. Great value for money!",
     },
     {
         id:4,
         img : artBoard8,
-        title:'What our client says about us',
+        title:'Hear from our happy clients!',
         content:"I recently purchased an audio system from Edge Car Care Accessories, and I'm blown away by the incredible sound quality. The installation was a breeze, and I can now enjoy my favorite music in perfect clarity. Thank you!",
     },
 ];
@@ -149,7 +149,7 @@ export const brands = [
         name: 'Audio',
         img : artBoard3,
         title: 'Pioneer',
-        desc:`The Pioneer GM-E7004 is a 4-channel car amplifier that delivers powerful sound performance. With up to 100 watts RMS per channel, it ensures clear and dynamic audio reproduction. Its compact design enables easy installation in tight spaces. The amplifier offers versatile connectivity options for seamless integration into your car's audio system.`,
+        desc:`The Pioneer GM-E7004 is a 4-channel car amplifier that delivers powerful sound performance. With up to 1000 watts RMS per channel, it ensures clear and dynamic audio reproduction. Its compact design enables easy installation in tight spaces. The amplifier offers versatile connectivity options for seamless integration into your car's audio system.`,
     },
     {
         id: 4,
@@ -163,7 +163,7 @@ export const brands = [
         name: 'Audio',
         img : artBoard5,
         title: 'JBL CONCERT A704',
-        desc:`The JBL Concert A704 car amplifier is a reliable and powerful addition to your car audio setup. Engineered to deliver impressive performance, it enhances your audio experience by providing clean and distortion-free sound reproduction. With its robust design and advanced technology, this ensures optimal power delivery, bringing your music to life with clarity and precision.Capture every moment on the road with the 70mai Dash Cam. This compact and feature-packed device offers reliable and high-quality video recording for your driving adventures. Equipped with advanced technology, the 70mai Dash Cam records in crisp 1080p Full HD resolution, ensuring clear and detailed footage of the road ahead. Its wide-angle lens provides a broad field of view, capturing more of the surroundings and enhancing your safety on the road.`,
+        desc:`The JBL Concert A704 car amplifier is a reliable and powerful addition to your car audio setup. Engineered to deliver impressive performance, it enhances your audio experience by providing clean and distortion-free sound reproduction. With its robust design and advanced technology, this ensures optimal power delivery, bringing your music to life with clarity and precision.`,
     },
     {
         id: 6,

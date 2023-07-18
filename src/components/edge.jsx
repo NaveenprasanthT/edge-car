@@ -101,7 +101,8 @@ function Edge() {
         Edge <span style={{ color: 'red' }}>X</span>clusive
       </Header>
       <Content>
-        Welcome to Edge Car Accessories, your one-stop shop for high-quality car accessories. Whether you're looking to upgrade your vehicle's performance, enhance its appearance, or improve its functionality, we have everything you need to take your car to the next level. Explore our wide range of car accessories and discover the perfect additions to make your ride truly stand out on the road.      </Content>
+        Edge car accessories are innovative and stylish add-ons designed to enhance the appearance and functionality of your vehicle. From sleek spoilers and stylish alloy wheels to advanced multimedia systems and custom lighting options, these accessories provide a progressive appeal while improving your driving experience.
+      </Content>
       <Elements>
         {EdgeData.map((data,id) => (
           <Element key={id} onClick={event => handleClick(event, data.product)}>

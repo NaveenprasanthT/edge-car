@@ -245,7 +245,8 @@ const Footer = () => {
             <FooterLogo>
               <LogoImage src={logo} alt="Logo" />
               <FooterText>
-              At Edge Car Accessories, we invite you to explore a world of possibilities for your vehicle. With our exceptional range of high-quality accessories, we transform your driving experience into something extraordinary. From enhancing performance to adding style, we have everything you need to take your car to the next level. Join us to elevate your ride.              </FooterText>
+                At Edge Car Accessories, we offer a wide range of top-quality accessories for your vehicle. Our products are designed to enhance your driving experience and make your car look stylish. Transform your vehicle with our exceptional accessories for a remarkable ride.
+              </FooterText>
             </FooterLogo>
             <FooterSocial>
               <FollowUsText>Follow Us on</FollowUsText>
