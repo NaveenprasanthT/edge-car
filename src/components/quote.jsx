@@ -216,7 +216,7 @@ function Quote() {
               <Label>Phone</Label>
               <Input
                 type="tel"
-                placeholder="9876543210"
+                placeholder="Type phone number"
                 name="phone"
                 value={formData.phone}
                 onChange={handleInputChange}

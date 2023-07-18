@@ -298,7 +298,7 @@ const Footer = () => {
                   <a href="tel:9008536537" style={{ textDecoration: 'none' }}>
                     <div style={{ cursor: 'pointer' }}>
                       <FooterContactText>Phone Number:</FooterContactText>
-                      <FooterContactText style={{ fontWeight: 600 }}>9008536537</FooterContactText>
+                      <FooterContactText style={{ fontWeight: 600 }}>8050505070</FooterContactText>
                     </div>
                   </a>
                 </FooterContact>
