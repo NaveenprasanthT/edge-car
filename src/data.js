@@ -141,7 +141,7 @@ export const brands = [
         id: 2,
         name: 'Audio',
         img : artBoard2,
-        title: 'ONKYO',
+        title: 'Onkyo',
         desc:`The Onkyo X-QD 1000 is a sleek and powerful audio device that delivers immersive sound quality. With versatile connectivity options such as Bluetooth and USB,  it seamlessly integrates with your device. Its modern design adds a touch of elegance to any setting, making it a perfect choice for music or movies.`,
     },
     {
@@ -162,7 +162,7 @@ export const brands = [
         id: 5,
         name: 'Audio',
         img : artBoard5,
-        title: 'JBL CONCERT A704',
+        title: 'JBL Concert A704',
         desc:`The JBL Concert A704 car amplifier is a reliable and powerful addition to your car audio setup. Engineered to deliver impressive performance, it enhances your audio experience by providing clean and distortion-free sound reproduction. With its robust design and advanced technology, this ensures optimal power delivery, bringing your music to life with clarity and precision.`,
     },
     {
@@ -242,7 +242,7 @@ export const brands = [
         id: 17,
         name: 'Audio',
         img : image14,
-        title: 'BLAUPUNKT',
+        title: 'Blaupunkt',
         desc:`The Blaupunkt New York 750 is an advanced car multimedia system designed to elevate your in-car entertainment experience. With its high-resolution touchscreen display, you can easily navigate through various features and enjoy clear visuals. It supports multiple media formats, offers Bluetooth connectivity for hands-free calling and audio streaming, and features built-in navigation for hassle-free driving. It's the perfect upgrade for a premium multimedia experience.`,
     },
     //Light Products
@@ -250,14 +250,14 @@ export const brands = [
         id: 10,
         name: 'Light',
         img : image5,
-        title: 'brazo',
+        title: 'Brazo',
         desc:'Automotive-grade LED lights are a popular choice for automotive lighting applications due to their numerous advantages over traditional incandescent bulbs. These LED lights are highly energy-efficient, providing bright illumination while consuming minimal power. They also have a longer lifespan compared to traditional bulbs, reducing the need for frequent replacements.',
     },
     {
         id: 18,
         name: 'Light',
         img : image1,
-        title: 'MAXXLINK',
+        title: 'MaxxLink',
         desc:`MAXXLINK LED headlights revolutionize automotive lighting with exceptional brightness and style. These headlights utilize advanced LED technology for brilliant illumination and enhanced visibility. With their sleek design and precise beam patterns, they offer superior lighting performance, ensuring a safer and more enjoyable driving experience. Upgrade your vehicle with MAXXLINK for stunning form and outstanding function.`,
     },
     {

@@ -111,6 +111,7 @@ const MyIcon = styled.img.attrs(props => ({
 
 const Title = styled.h3`
   font-size: 20px;
+  text-transform: capitalize;
   font-weight: 400;
   margin-bottom: 6px;
   transition: all 0.5s ease-in-out;
