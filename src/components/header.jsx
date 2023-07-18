@@ -66,7 +66,7 @@ function Header() {
       <Navbar />
       <Content>
         <Title>Rev Up Your Drive!</Title>
-        <Paragraph>Edge car accessories are innovative and stylish add-ons designed to enhance the appearance and functionality of your vehicle. From sleek spoilers and stylish alloy wheels to advanced multimedia systems and custom lighting options, these accessories provide a progressive appeal while improving your driving experience.</Paragraph>
+        <Paragraph>Explore the Best in Car Accessories for Unmatched Performance, Style, and Comfort.</Paragraph>
       </Content>
     </Container>
   );

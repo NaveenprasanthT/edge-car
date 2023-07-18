@@ -92,13 +92,13 @@ export const TestimonialContent = [
         id:1,
         img : artBoard1,
         title:'What our client says about us',
-        content:"Outstanding service and top-notch products! The team at Edge Car Care Accessories went above and beyond to help me find the perfect car accessories. Highly recommended!",
+        content:"I highly recommend Edge Car Care Accessories for their exceptional service and exceptional products. The team went the extra mile in assisting me in finding the ideal car accessories, ensuring a remarkable experience.",
     },
     {
         id:2,
         img : image1,
         title:'What our client says about us',
-        content:"I couldn't be happier with my purchase from Edge Car Care Accessories. The quality of the products exceeded my expectations, and the customer support was exceptional. Will definitely be a returning customer!",
+        content:"I am extremely happy with my purchase from Edge Car Care Accessories. The products exceeded my expectations, and the customer support was outstanding. I will definitely be coming back as a repeat customer!",
     },
     {
         id:3,
@@ -142,7 +142,7 @@ export const brands = [
         name: 'Audio',
         img : artBoard2,
         title: 'ONKYO',
-        desc:`ONKYO is a well-known brand in the audio industry, specializing in the manufacturing of audio equipment and home theater systems. They offer a range of products, including amplifiers, receivers, speakers, headphones, and more. ONKYO is known for its commitment to high-quality sound reproduction and innovative features, catering to both audiophiles and home entertainment enthusiasts. Their products often incorporate advanced technologies and connectivity options to deliver immersive audio experiences.`,
+        desc:`The Onkyo X-QD 1000 is a sleek and powerful audio device that delivers immersive sound quality. With versatile connectivity options such as Bluetooth and USB,  it seamlessly integrates with your device. Its modern design adds a touch of elegance to any setting, making it a perfect choice for music or movies.`,
     },
     {
         id: 3,
@@ -156,91 +156,94 @@ export const brands = [
         name: 'Audio',
         img : artBoard4,
         title: 'Sony',
-        desc:`Sony is a well-known brand that offers a range of active subwoofers designed to enhance the bass performance in audio systems. Sony's active subwoofers are self-powered, meaning they have a built-in amplifier, and they are specifically designed to reproduce low-frequency sounds with depth and impact. These subwoofers often feature adjustable settings for volume, crossover frequency, and phase control, allowing users to fine-tune the bass response to their preference. With their powerful output and precise bass reproduction, Sony active subwoofers are a popular choice for home theaters, music systems, and car audio setups.`,
+        desc:`The Sony XS-AW8 is a compact and powerful car subwoofer that delivers deep and impactful bass. With its innovative design and advanced technology, it enhances your car audio system, providing a rich and immersive listening experience. The subwoofer is easy to install and compatible with a variety of car models. Perfect for car enthusiasts who crave enhanced low-frequency performance on the go.`,
     },
     {
         id: 5,
         name: 'Audio',
         img : artBoard5,
         title: 'JBL CONCERT A704',
-        desc:`The JBL Concert A704 is a reliable and powerful car amplifier that can enhance your car audio experience by providing clean, distortion-free sound. It is designed to deliver impressive performance and can be a great addition to your vehicle's sound system.`,
+        desc:`The JBL Concert A704 car amplifier is a reliable and powerful addition to your car audio setup. Engineered to deliver impressive performance, it enhances your audio experience by providing clean and distortion-free sound reproduction. With its robust design and advanced technology, this ensures optimal power delivery, bringing your music to life with clarity and precision.Capture every moment on the road with the 70mai Dash Cam. This compact and feature-packed device offers reliable and high-quality video recording for your driving adventures. Equipped with advanced technology, the 70mai Dash Cam records in crisp 1080p Full HD resolution, ensuring clear and detailed footage of the road ahead. Its wide-angle lens provides a broad field of view, capturing more of the surroundings and enhancing your safety on the road.`,
     },
     {
         id: 6,
         name: 'Audio',
         img : artBoard6,
-        title: 'brazo',
-        desc:`A channel amplifier, also known as a multi-channel amplifier, is an audio amplifier that has multiple channels or outputs for driving multiple speakers or audio channels. Each channel in the amplifier is dedicated to powering a specific speaker or audio channel in a sound system setup. The number of channels in an amplifier can vary, with common configurations including 2-channel (stereo), 4-channel, 5-channel, and even higher channel counts.`,
+        title: 'Brazo',
+        desc:`The Brazo PA360.4 is a high-performance 4-channel amplifier designed to deliver impressive audio power in your car. With its compact yet robust design, it can easily fit into any vehicle. This amplifier provides excellent sound clarity and dynamic range, enhancing your music experience. Its versatile functionality allows you to power multiple speakers or subwoofers, making it an ideal choice for car audio enthusiasts.`,
     },
     {
         id: 7,
         name: 'Audio',
         img : artBoard7,
         title: 'Audible Dynamic NR SERIES',
-        desc:'A high level of audible dynamics in an audio system allows for a more immersive and realistic listening experience. It enables the system to accurately reproduce the subtle nuances and details in quiet passages, as well as the impact and intensity of louder passages in music, movies, or other audio content.',
+        desc:'The Audible Dynamic NR Series NR 60C is a remarkable car audio component that brings your in-car sound to a whole new level. With its advanced noise reduction technology, it delivers crystal-clear audio quality and eliminates unwanted background noise. The sleek and compact design allows for easy installation, while the impressive sound reproduction ensures a truly immersive and enjoyable driving experience.',
     },
     {
         id: 8,
         name: 'Audio',
         img : artBoard9,
         title: 'Audison',
-        desc:'Audison speakers offer exceptional sound quality and precise audio reproduction. With premium materials and meticulous construction, they are designed to deliver accurate and detailed sound across the frequency range. Audison speakers are known for their clarity, precision, and immersive listening experience, making them a top choice for car audio enthusiasts and audiophiles.',
+        desc:'The Audison APK 165 is a high-performance car speaker system designed to deliver outstanding audio quality. With its advanced technology and precise engineering, it produces a clear and dynamic sound with exceptional detail. The system includes two woofers, two tweeters, and crossovers for optimal sound dispersion. This is the perfect choice for car enthusiasts looking to upgrade their in-car audio experience.',
     },
     {
         id: 9,
         name: 'Audio',
         img : image4,
-        title: 'MSX Audio',
-        desc:`MTX Audio offers high-quality speakers known for their powerful and precise sound reproduction. Built with durable materials and advanced construction, they deliver clear and accurate audio across the frequency range. With various options available, including component speakers and subwoofers, MTX speakers allow for customized car audio setups. Their ability to handle high power levels ensures impactful sound reproduction, making them a popular choice for those seeking immersive and dynamic in-car audio experiences.`,
+        title: 'MTX Audio',
+        desc:`The MTX Audio TR65C is a set of car speakers engineered to deliver outstanding audio quality. With their durable construction and advanced technology, these speakers provide crisp and clear sound reproduction. The included crossovers ensure accurate frequency separation for an immersive listening experience. This speakers are a perfect choice for car enthusiasts who demand superior audio performance and reliability on the road.
+        `,
     },
     {
         id: 11,
         name: 'Audio',
         img : image6,
         title: 'Focal',
-        desc:'Focal speakers are synonymous with premium sound quality and exquisite craftsmanship. Designed with meticulous attention to detail, Focal speakers deliver accurate and dynamic sound reproduction across the entire frequency range. With a diverse product lineup that includes component speakers, coaxial speakers, and high-performance subwoofers, Focal offers options for various audio systems and preferences. Focal speakers are revered by audiophiles and music enthusiasts for their exceptional clarity, precision, and immersive soundstage.',
+        desc:`Experience a new level of in-car audio excellence with the FOCAL RSE-165.
+        it delivers immersive sound reproduction and precise sonic imaging. The speakers are built with quality materials and innovative technology for enhanced durability and optimal sound dispersion. Upgrade your car audio system with the FOCAL  for unparalleled sound quality.
+       `,
     },
     {
         id: 12,
         name: 'Audio',
         img : image7,
         title: 'JBL Harman',
-        desc:'JBL Harman products are known for their excellent sound quality, durability, and innovative features. They cater to different market segments, ranging from consumer audio to professional and commercial audio applications. JBL speakers are acclaimed for their powerful and balanced sound reproduction, while their headphones deliver immersive audio experiences.',
+        desc:'JBL Harman is a renowned brand known for its exceptional audio products. The CS790CHI speaker, with 390 watts of power, delivers a powerful and immersive audio experience. It combines cutting-edge technology and expert craftsmanship to produce rich, clear sound with impressive depth. This  offers an audio solution that exceeds expectations, captivating listeners with its superior performance and fidelity.',
     },
     {
         id: 13,
         name: 'Audio',
         img : image10,
         title: 'Infinity Harman',
-        desc:`Experience superior audio quality with Infinity speakers. Designed with precision and craftsmanship, these speakers deliver exceptional sound performance that will elevate your listening experience. Whether you're enjoying your favorite music, watching movies, or gaming, Infinity speakers provide crystal-clear vocals, detailed instrumentals, and powerful bass response.        `,
+        desc:`The 6530 CXF from Infinity Harman is a car speaker system that offers impressive audio quality. With a peak power of 450W, it delivers powerful sound, enriching your in-car experience. The speakers handle dynamic music with precision, delivering deep bass and crisp highs. Upgrade your car audio with this remarkable speaker system.`,
     },
     {
         id: 14,
         name: 'Audio',
         img : image11,
         title: 'Pioneer',
-        desc:'Elevate your audio experience with Pioneer speakers. Engineered with precision and expertise, these speakers offer exceptional sound quality and clarity, bringing your music, movies, and games to life. Pioneer speakers are designed to deliver a balanced and immersive soundstage, allowing you to hear every detail with precision.',
+        desc:'The Pioneer TS-J170C is a car speaker system that provides impressive audio performance. These speakers deliver clear and immersive sound with deep bass response, enhancing your music listening experience on the road. The durable construction ensures reliability, while the easy installation process makes upgrading your car audio system effortless. Enjoy the superior audio quality.',
     },
     {
         id: 15,
         name: 'Audio',
         img : image12,
         title: 'Sony',
-        desc:'With multiple HDMI inputs and outputs, the Sony AV receiver offers seamless connectivity for all your audio and video devices. Enjoy seamless 4K Ultra HD passthrough and upscaling, delivering crisp, vibrant visuals to complement the immersive sound. The receiver also supports HDR (High Dynamic Range) content, ensuring enhanced contrast and vibrant colors.',
+        desc:`The Sony XAV-AX8100 is a feature-packed car multimedia receiver with a large 8.95-inch touchscreen display for intuitive control and vivid visuals. It offers seamless integration with Apple CarPlay and Android Auto, providing hands-free calling, messaging, and music playback. With high-quality audio playback, navigation, and multiple connectivity options, it's the perfect upgrade for your car's infotainment system.`,
     },
     {
         id: 16,
         name: 'Audio',
         img : image13,
         title: 'UnPlug',
-        desc:'The Android Multimedia Player supports 4K Ultra HD resolution, delivering breathtaking visuals with vibrant colors and sharp details. Connect to your home network via Wi-Fi or Ethernet for seamless streaming, or use the built-in USB and HDMI ports to connect external storage devices, gaming consoles, or other peripherals.',
+        desc:`The Unplug Android multimedia player is a versatile device that brings advanced entertainment options to your vehicle. With its user-friendly interface and powerful features, you can enjoy seamless integration with your Android device, enabling access to apps, music, videos, and navigation. The high-resolution display ensures crisp visuals, while the intuitive controls and easy installation make it a convenient choice for upgrading your car's multimedia capabilities.`,
     },
     {
         id: 17,
         name: 'Audio',
         img : image14,
         title: 'BLAUPUNKT',
-        desc:`Blaupunkt is synonymous with premium audio solutions, offering a wide range of products designed to enhance your audio experience. Their car audio systems provide exceptional sound quality, advanced features, and stylish designs. Whether you're looking for car stereos, amplifiers, speakers, or subwoofers, Blaupunkt offers a variety of options to suit different preferences and vehicle models.`,
+        desc:`The Blaupunkt New York 750 is an advanced car multimedia system designed to elevate your in-car entertainment experience. With its high-resolution touchscreen display, you can easily navigate through various features and enjoy clear visuals. It supports multiple media formats, offers Bluetooth connectivity for hands-free calling and audio streaming, and features built-in navigation for hassle-free driving. It's the perfect upgrade for a premium multimedia experience.`,
     },
     //Light Products
     {
@@ -255,21 +258,21 @@ export const brands = [
         name: 'Light',
         img : image1,
         title: 'MAXXLINK',
-        desc:`Upgrade your audio system with MAXXLINK audio accessories. Engineered for superior performance and reliability, MAXXLINK offers a range of accessories including speaker wire, RCA cables, power distribution blocks, and connectors. These high-quality accessories ensure optimal signal transmission and minimal signal loss, resulting in pristine audio reproduction. Whether you're enhancing your car audio or home audio setup, MAXXLINK accessories provide the perfect combination of quality and value for an exceptional audio experience.`,
+        desc:`MAXXLINK LED headlights revolutionize automotive lighting with exceptional brightness and style. These headlights utilize advanced LED technology for brilliant illumination and enhanced visibility. With their sleek design and precise beam patterns, they offer superior lighting performance, ensuring a safer and more enjoyable driving experience. Upgrade your vehicle with MAXXLINK for stunning form and outstanding function.`,
     },
     {
         id: 19,
         name: 'Light',
         img : image8,
         title: 'Excelite',
-        desc:`Illuminate the road ahead with our high-quality car headlights. Designed for superior visibility and safety, our headlights provide exceptional brightness and clarity, ensuring clear visibility in various driving conditions. With advanced technology and precision engineering, these headlights deliver optimal light distribution, minimizing glare for oncoming drivers. Crafted with durable materials, our headlights are built to withstand harsh weather conditions and maintain long-lasting performance. Upgrade your vehicle's lighting system with our reliable and high-performance headlights and enjoy a safer and more enjoyable driving experience.`,
+        desc:`The Excelite Headlight LED E4 series sets a new standard in automotive lighting. With its Pioneering LED technology, these headlights provide superior brightness and enhanced visibility on the road. Designed with precision and durability, and delivers exceptional lighting performance for an elevated driving experience.`,
     },
     {
         id: 20,
         name: 'Light',
         img : image9,
         title: 'Envision',
-        desc:`Enhance your driving experience with our premium car headlights that illuminate the road ahead. Engineered to prioritize visibility and safety, our headlights offer exceptional brightness and clarity in diverse driving conditions. Utilizing advanced technology and precise engineering, these headlights provide optimal light distribution, reducing glare for oncoming drivers. Crafted from durable materials, they withstand harsh weather and maintain long-lasting performance. Upgrade your vehicle's lighting system with our reliable and high-performance headlights for a safer and more enjoyable journey on the road.`,
+        desc:`Envision professional LED headlamps are a must-have car accessory for enhanced visibility and style. With their advanced LED technology, these headlamps deliver powerful illumination, improving nighttime driving safety. Their sleek design and easy installation make them a practical and stylish upgrade for any vehicle.`,
     },
     //motors
     {
@@ -292,10 +295,8 @@ export const brands = [
         name: 'Dash Camera',
         img : image3,
         title: '70mai',
-        desc:`
-        Capture every moment on the road with the 70mai Dash Cam. This compact and feature-packed device offers reliable and high-quality video recording for your driving adventures.
-        Equipped with advanced technology, the 70mai Dash Cam records in crisp 1080p Full HD resolution, ensuring clear and detailed footage of the road ahead. Its wide-angle lens provides a broad field of view, capturing more of the surroundings and enhancing your safety on the road.`,
-    },
+        desc:`Capture every moment on the road with the 70mai Dash Cam. This compact and feature-packed device offers reliable and high-quality video recording for your driving adventures. Equipped with advanced technology, this Dash Cam records in crisp 1080p Full HD resolution, ensuring clear and detailed footage of the road ahead. Its wide-angle lens provides a broad field of view, capturing more of the surroundings and enhancing your safety on the road.`
+        },
 ];
 
 export const Products = [

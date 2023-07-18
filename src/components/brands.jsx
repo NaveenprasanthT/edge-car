@@ -1,4 +1,4 @@
-import React, { useState,useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { styled } from 'styled-components';
 import { brands } from '../data';
 import ProductModel from './productModel';
@@ -97,10 +97,10 @@ const ImgContainer = styled.div`
     overflow:hidden;
     border: 1px solid #ffffff4e;
 `
-  
+
 const MyIcon = styled.img.attrs(props => ({
-    src: props.Img,
-  }))`
+  src: props.Img,
+}))`
   width: 100%;
   height:100%;
   transition: all 0.5s ease-in-out;
@@ -128,7 +128,7 @@ const Line = styled.div`
   ${Element}:hover & {
     width:120px;
   }`
-;
+  ;
 
 const DropdownContainer = styled.div`
   display: flex;
@@ -167,7 +167,7 @@ const BrandListTablet = styled.ul`
   font-size:16px;
   gap : 20px;
   font-weight: normal;
-  display: ${({toggle})=>(toggle ? 'grid' : 'none')};
+  display: ${({ toggle }) => (toggle ? 'grid' : 'none')};
   grid-template-columns: repeat(auto-fill,minmax(25.333%, 1fr));
   background-color: #FFFFFF30;
   padding: 20px 20px;
@@ -196,82 +196,82 @@ const BrandTablet = styled.li`
 
 function Brands() {
 
-    const { value } = useContext(ProductContext);
-    const [currentBrand, setCurrentBrand] = useState(value);
-    const [openModel,setOpenModel] = useState(false);
-    const [currentProduct, setCurrentProduct] = useState({});
-    const [dropDown, setDropDown] = useState(false);
+  const { value } = useContext(ProductContext);
+  const [currentBrand, setCurrentBrand] = useState(value);
+  const [openModel, setOpenModel] = useState(false);
+  const [currentProduct, setCurrentProduct] = useState({});
+  const [dropDown, setDropDown] = useState(false);
 
-    const handleClick = (event, param) => {
-        event.preventDefault();
-        setCurrentBrand(param);
-        setDropDown(false);
-      };
+  const handleClick = (event, param) => {
+    event.preventDefault();
+    setCurrentBrand(param);
+    setDropDown(false);
+  };
 
-    const handlePopup = (event,data) => {
-        event.preventDefault();
-        setCurrentProduct(data);
-        setOpenModel(true)
-    }
+  const handlePopup = (event, data) => {
+    event.preventDefault();
+    setCurrentProduct(data);
+    setOpenModel(true)
+  }
 
-    const toggleMenu = () => {
-      setDropDown(!dropDown);
-    };
+  const toggleMenu = () => {
+    setDropDown(!dropDown);
+  };
 
-    return ( 
-        <Container>
-            <Header>
-                Our Products
-            </Header>
-            <Content>
-            Discover our premium selection of car accessories at Edge Car Accessories. From stylish exterior enhancements to innovative interior upgrades, our products are designed to elevate your vehicle's aesthetics and functionality. Explore our collection and enhance your driving experience.            </Content>
-            <DropdownContainer>
-              <SubHeading>
-                Brands
-              </SubHeading>
-              <DropdownMenu>
-                <CurrentMenu>
-                    {currentBrand}
-                </CurrentMenu>
-                <Button onClick={toggleMenu}>
-                  <FiFilter/>
-                </Button>
-              </DropdownMenu>
-              <BrandListTablet toggle={dropDown}>
-                      {Products.map((item,index)=>(
-                        <BrandTablet onClick={event => handleClick(event, item.name)}>{item.name}</BrandTablet>
-                      ))}
-              </BrandListTablet>
-            </DropdownContainer>
-            <BrandContainer>
-                <ProductModel openModel={openModel} setOpenModel={setOpenModel} product={currentProduct}/>
-                <BrandMenu>
-                    <BrandList>
-                      {Products.map((item,index)=>(
-                        <Brand onClick={event => handleClick(event, item.name)}>{item.name}</Brand>
-                      ))}
-                    </BrandList>
-                </BrandMenu>
-                <ProductList
-                      initial={{y:70}}
-                      animate={{y:0}}
-                      transition={{duration: 1}}
-                >
-                {brands.map((data)=>(
-                    data.name === currentBrand ?  
-                    ( 
-                      <Element onClick={event => handlePopup(event,data)}>
-                      <ImgContainer>
-                        <MyIcon Img={data.img}/>
-                      </ImgContainer>
-                      <Title>{data.title}</Title>
-                      <Line/>
-                      </Element>) : null
-                    ))}
-                </ProductList>
-            </BrandContainer>
-        </Container>
-     );
+  return (
+    <Container>
+      <Header>
+        Our Products
+      </Header>
+      <Content>
+        Discover our premium selection of car accessories at Edge Car Accessories. From stylish exterior enhancements to innovative interior upgrades, our products are designed to elevate your vehicle's aesthetics and functionality. Explore our collection and enhance your driving experience.      </Content>
+      <DropdownContainer>
+        <SubHeading>
+          Brands
+        </SubHeading>
+        <DropdownMenu>
+          <CurrentMenu>
+            {currentBrand}
+          </CurrentMenu>
+          <Button onClick={toggleMenu}>
+            <FiFilter />
+          </Button>
+        </DropdownMenu>
+        <BrandListTablet toggle={dropDown}>
+          {Products.map((item, index) => (
+            <BrandTablet onClick={event => handleClick(event, item.name)}>{item.name}</BrandTablet>
+          ))}
+        </BrandListTablet>
+      </DropdownContainer>
+      <BrandContainer>
+        <ProductModel openModel={openModel} setOpenModel={setOpenModel} product={currentProduct} />
+        <BrandMenu>
+          <BrandList>
+            {Products.map((item, index) => (
+              <Brand onClick={event => handleClick(event, item.name)}>{item.name}</Brand>
+            ))}
+          </BrandList>
+        </BrandMenu>
+        <ProductList
+          initial={{ y: 70 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          {brands.map((data) => (
+            data.name === currentBrand ?
+              (
+                <Element onClick={event => handlePopup(event, data)}>
+                  <ImgContainer>
+                    <MyIcon Img={data.img} />
+                  </ImgContainer>
+                  <Title>{data.title}</Title>
+                  <Line />
+                </Element>) : null
+          ))}
+        </ProductList>
+      </BrandContainer>
+    </Container>
+  );
 }
 
 export default Brands;
