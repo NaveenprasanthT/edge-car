@@ -40,6 +40,8 @@ const Title = styled.div`
   z-index:2;
   @media (max-width: 750px) {
     font-size: 40px;
+    color: #fff !important;
+    text-shadow: 2px 2px 4px #ffffff7e;
   }
   @media (max-width: 400px) {
     font-size: 36px;
@@ -54,9 +56,11 @@ const Paragraph = styled.p`
   @media (max-width: 750px) {
     font-size: 22px;
     color: #fff;
+    font-weight: 100 !important;
+    text-shadow: 3px 3px 4px #ffffff9e;
   }
   @media (max-width: 750px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 `
 
@@ -66,10 +70,17 @@ const Overlay = styled.div`
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #0000004e;
+  background-color: #0000007e;
   z-index: 1;
   @media (min-width: 751px) {
     display: none;
+  }
+`
+
+const ColoredText = styled.span`
+  color: #f01f36;
+  @media (max-width: 750px) {
+    text-shadow: 2px 2px 4px #f01f369e;
   }
 `
 
@@ -99,7 +110,7 @@ function Header() {
       <Navbar />
       <Content>
         <Overlay></Overlay>
-        <Title>Rev Up Your Drive!</Title>
+        <Title>Rev Up Your <ColoredText>Drive!</ColoredText></Title>
         <Paragraph>Explore the Best in Car Accessories for Unmatched Performance, Style, and Comfort.</Paragraph>
       </Content>
     </Container>
