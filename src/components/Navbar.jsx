@@ -17,7 +17,7 @@ const Container = styled.div`
   position: fixed;
   background-color: ${({navbarcolor}) => (navbarcolor ? "white" : "#0000004e")}; 
   transition: all 0.2s ease-in-out;
-  z-index: 1;
+  z-index: 4;
   @media ${devices.tablet} {
     background-color: #FFFFFF;
   }
