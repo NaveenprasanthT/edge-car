@@ -306,7 +306,7 @@ const Footer = () => {
                   <img src={clockIcon} alt="Clock Icon" style={{ width: '50px', height: '50px' }} />
                   <div>
                     <FooterTimingText>Opening Hours:</FooterTimingText>
-                    <FooterTimingText style={{ fontWeight: 600 }}>09:00 AM - 10:00 PM</FooterTimingText>
+                    <FooterTimingText style={{ fontWeight: 600 }}>10:30 AM - 09:00 PM</FooterTimingText>
                   </div>
                 </FooterTiming>
               </div>
