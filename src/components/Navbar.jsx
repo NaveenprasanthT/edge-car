@@ -191,7 +191,7 @@ function Navbar(props) {
         <HashLink smooth to="/#Location" style={{ textDecoration: 'none', color: "white" }}>
           <MenuItem navbarcolor={navbarcolor}>Location</MenuItem>
         </HashLink>
-        <a href="tel:9008536537" style={{textDecoration:'none'}}>
+        <a href="tel:8050505070" style={{textDecoration:'none'}}>
           <Button>Call Now</Button>
         </a>
         <HashLink smooth to="/#quote" style={{ textDecoration: 'none', color: "white" }}>
@@ -218,7 +218,7 @@ function Navbar(props) {
         <HashLink smooth to="/#Location" style={{ textDecoration: 'none', color: "white" }}>
           <MenuItem>Location</MenuItem>
         </HashLink>
-        <a href="tel:9008536537" style={{textDecoration:'none'}}>
+        <a href="tel:8050505070" style={{textDecoration:'none'}}>
           <Button>Call Now</Button>
         </a>
         <HashLink smooth to="/#quote">
