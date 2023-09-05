@@ -295,7 +295,7 @@ const Footer = () => {
                 <FooterHeading>CONTACT & INFORMATION</FooterHeading>
                 <FooterContact>
                   <img src={phoneIcon} alt="Phone Icon" style={{ width: '50px', height: '50px' }} />
-                  <a href="tel:9008536537" style={{ textDecoration: 'none' }}>
+                  <a href="tel:8050505070" style={{ textDecoration: 'none' }}>
                     <div style={{ cursor: 'pointer' }}>
                       <FooterContactText>Phone Number:</FooterContactText>
                       <FooterContactText style={{ fontWeight: 600 }}>8050505070</FooterContactText>
